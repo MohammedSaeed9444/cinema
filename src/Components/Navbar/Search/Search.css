@@ -126,3 +126,14 @@
 	display: flex;
 	justify-content: end;
 }
+
+
+@media screen and (max-width: 420px) {
+
+    .Searc {
+        display: none;
+    }
+	.search-bar {
+		display: none;
+	}
+  }

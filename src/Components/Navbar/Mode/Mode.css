@@ -80,3 +80,29 @@
 	background-color: rgb(238, 238, 238);; /* Change to the desired color */
 	color: rgb(23, 22, 22);
   }
+
+
+@media screen and (max-width: 420px) {
+	.l:before, :after {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	.l {
+		width: 64%;
+		height: 10px;
+	}
+	.mode {
+		/* width: 100%; */
+		padding-top: 5px;
+		/* padding-bottom: 66px; */
+	}
+	.l:before {
+		width: 12px;
+		height: 12px;
+	}
+	.l:after {
+		width: 10px;
+		height: 10px;
+	}
+}

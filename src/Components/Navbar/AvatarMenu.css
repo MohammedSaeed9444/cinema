@@ -1,0 +1,25 @@
+.avatar-menu {
+    position: relative;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 8px;
+    z-index: 10;
+  }
+  
+  .menu p {
+    margin: 0;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .avatar-menu:hover .menu {
+    display: block;
+  }
+  

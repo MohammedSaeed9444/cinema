@@ -1,15 +1,15 @@
-import React from 'react'
-import './Navbar.css'
-import Search from './Search/Search'
-import Mode from './Mode/Mode'
-import Navlist from './Navlist/Navlist'
-
+import React from 'react';
+import './Navbar.css';
+import Search from './Search/Search';
+import Mode from './Mode/Mode';
+import Navlist from './Navlist/Navlist';
+import AvatarMenu from './AvatarMenu';
 
 function Navbar() {
   return (
     <div className='Navbar'>
       <div className='logo'>
-        <img src='\src\images\logo.png'></img>
+        <img src='\src\images\logo.png' alt='Logo'></img>
       </div>
       <Navlist />
       <div className='icons'>
@@ -17,12 +17,10 @@ function Navbar() {
         <div className='mode'>
           <Mode />
         </div>
-        <div className='avatar-container'>
-          <img className='avatar' src='src\images\avatar.png'></img>
-        </div>
+        <AvatarMenu />
       </div>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

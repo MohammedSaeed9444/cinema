@@ -16,6 +16,10 @@ function Artic1() {
                         </div>
                     <div className='rank'>9.1</div>
                     </div>
+                        <video className='hover-video' loop muted>
+                            <source src='https://www.youtube.com/watch?v=LDG9bisJEaI' type='video/mp4' />
+                                Your browser does not support the video tag.
+                        </video>
             </div>
             <div className='Card'>
                 <img src='/src/images/art16.jpg'></img>
@@ -95,13 +99,13 @@ function Artic1() {
         </div>
       </div>
       <div className='l1'>
-        <h2 className='Titel'>Top Movies</h2>
+        <h2 className='Titel'>New Movies</h2>
         <div className='gridCard'>
             <div className='Card'>
-                <img src='/src/images/art1.jpg'></img>
+                <img src='/src/images/art28.jpg'></img>
                     <div className='Details'>
                         <div className='Details11'>
-                            <h3 className='movieName'>The Dark Knight</h3>
+                            <h3 className='movieName'>Vaiking</h3>
                             <p>action</p>
                         </div>
                     <div className='rank'>9.1</div>
@@ -131,7 +135,7 @@ function Artic1() {
                 <img src='/src/images/art4.jpg'></img>
                     <div className='Details'>
                         <div className='Details11'>
-                            <h3 className='movieName'>The Green Mile</h3>
+                            <h3 className='movieName'>One Piece</h3>
                             <p>action</p>
                         </div>
                     <div className='rank'>8.6</div>
@@ -146,7 +150,7 @@ function Artic1() {
                 <img src='/src/images/art5.jpg'></img>
                     <div className='Details'>
                         <div className='Details11'>
-                            <h3 className='movieName'>The Dark Knight</h3>
+                            <h3 className='movieName'>Cuku</h3>
                             <p>action</p>
                         </div>
                     <div className='rank'>9.1</div>

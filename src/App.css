@@ -9,6 +9,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.Artical {
-    background-color:rgba(22, 21, 21, 0.5)k ;
-}
+
+@media screen and (max-width: 480px) {
+    .gridCard {
+      grid-template-columns: 100%;
+    }
+  }
+
+
+@media screen and (max-width: 768px) {
+    .gridCard {
+      grid-template-columns: repeat(2, 48%);
+    }
+  }

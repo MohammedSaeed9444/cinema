@@ -54,3 +54,11 @@ images {
   object-fit: contain;
 }
   
+
+@media screen and (max-width: 1000px) {
+  .Carousel {
+    display: flex;
+    height: 30%;
+
+  }
+}

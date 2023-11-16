@@ -9,6 +9,7 @@ function Carousel() {
     '/src/images/slider2.jpg',
     '/src/images/slider1.jpg',
     '/src/images/slider4.jpg',
+    '/src/images/slider5.jpg',
   ];
 
   const nextSlide = () => {

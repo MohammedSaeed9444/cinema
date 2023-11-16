@@ -69,3 +69,91 @@
         padding-left: 2%;
     }
   }
+
+
+  .Card:hover + .hover-video {
+    display: block;
+  }
+  
+  .Card:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+  }
+  
+  .Details {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Details11 {
+    color: azure;
+    padding-left: 2%;
+  }
+  
+  .Details11 p {
+    padding-top: 10%;
+  }
+  
+  .Details .rank {
+    color: rgb(255, 231, 93);
+    font-size: larger;
+    font-weight: bold;
+    padding-right: 2%;
+  }
+  
+  /* Dark mode styles */
+  .dark-mode {
+    background-color: rgb(238, 238, 238);
+    color: rgb(23, 22, 22);
+    .Titel {
+      color: rgb(25, 25, 23);
+    }
+    .Details11 {
+      color: rgb(27, 29, 29);
+      padding-left: 2%;
+    }
+  }
+  
+  .Card:hover + .hover-video {
+    display: block;
+  }
+  
+  .hover-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+  }
+  
+  @media screen and (max-width: 840px) {
+    .gridCard {
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+        gap: 2%;
+        height: 100%;
+    }
+
+    .Artic1 {
+
+        height: auto;
+        display:block;
+    }
+  }
+
+  /* @media screen and (max-width: 480px) {
+    .gridCard {
+        display: grid;
+        grid-template-columns: 96%;
+        gap: 2%;
+        height: 100%;
+    }
+
+    .Artic1 {
+
+        height: auto;
+        display:block;
+    }
+  } */
