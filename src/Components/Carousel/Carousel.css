@@ -1,0 +1,56 @@
+/* 
+.imgSlider {
+    width: 100%;
+    height: fit-content;
+}
+
+.Carousel {
+    height: 600px;
+} */
+
+
+.Carousel {
+    display: flex;
+    height: 540px;
+
+  }
+  
+  .Slider {
+    position: relative;
+    width: 100%; /* Adjust the width of the carousel */
+    overflow: hidden;
+    transition: transform 0.5s ease;
+  }
+  
+  .imgSlider {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .prevButton,
+  .nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: #ffffffba;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .prevButton {
+    left: 10px;
+  }
+  
+  .nextButton {
+    right: 10px;
+  }
+
+
+images {
+  object-fit: contain;
+}
+  
